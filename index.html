@@ -17,9 +17,42 @@
 @media(max-width:540px){.hero h1{font-size:clamp(42px,10.5vw,58px);letter-spacing:-3.6px}.hero h1 em{letter-spacing:-3.6px}.hero-eyebrow{font-size:8px;letter-spacing:.03em;margin-bottom:27px}.hero-copy>p{line-height:1.8}.button{font-size:12px;min-height:50px}.button-ghost{padding-inline:13px}.hero-visual{min-height:414px}.hero-visual-header,.hero-visual-footer{height:39px;font-size:8px;padding-inline:12px}.robot-art{min-height:330px}.hud-top{width:120px;padding:9px;right:3%;top:16%}.hud-top strong{font-size:10px}.hud-bottom{bottom:14%;right:4%;min-width:105px;padding:8px}.hud-mid{left:2%;bottom:36%;font-size:8px;padding:9px}.art-corner,.coord-line{font-size:6px}.strip-inner{min-height:87px}.strip-items{display:grid;grid-template-columns:1fr 1fr;gap:10px 13px}.strip-items b{display:none}.strip-items span{font-size:9px}.section-intro h2,.process-header h2{font-size:clamp(35px,10vw,48px);letter-spacing:-2.3px}.service-grid{grid-template-columns:1fr}.service-card{min-height:365px;padding:21px 24px}.service-card h3{font-size:32px}.service-art{height:83px;margin:18px 0}.service-card p{max-width:100%;font-size:13px}.integration-banner{grid-template-columns:43px 1fr;gap:11px;padding:20px 16px}.integration-icon{height:42px;width:42px}.integration-icon svg{width:23px}.integration-banner h3{font-size:18px}.integration-banner p{font-size:11px}.integration-banner>a{grid-column:2;justify-self:end}.domain-menu{gap:4px}.domain-button{min-width:126px;font-size:8px}.domain-panel{padding:22px 16px}.domain-panel h3{font-size:30px}.domain-panel>p{font-size:13px}.pipeline{padding:16px 13px}.pipeline-items{display:grid;grid-template-columns:1fr 1fr;gap:7px}.pipe-arrow{display:none}.pipeline-stage{min-height:82px}.pipeline-stage strong{font-size:12px}.domain-tech{display:block}.domain-tech>div{margin-top:13px}.use-case{display:block}.use-visual{height:205px;min-height:0;border-right:0;border-bottom:1px solid #304843}.scanner-frame,.agent-ui,.adaptive-ui{transform:scale(.9)}.case-body{padding:23px}.case-body h3{font-size:24px}.steps-grid{grid-template-columns:1fr;row-gap:0}.step{min-height:unset;border-right:0;border-bottom:1px solid #2b4540;margin:0;padding:24px 0}.step:last-child{border-bottom:0}.step h3{margin:14px 0 9px}.contact-copy h2{font-size:clamp(38px,10vw,54px);letter-spacing:-2px}.contact-copy>p{font-size:14px}.project-form{padding:26px 18px}.form-two-col{grid-template-columns:1fr}.contact-layout{padding:78px 0}.footer-links{gap:17px}.footer-bottom{font-size:8px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important}.reveal{opacity:1;transform:none}}
 
-.reveal{opacity:1!important;transform:none!important}</style></head><body><div id="root"></div><script>/*
+.reveal{opacity:1!important;transform:none!important}</style><style id="robotic-overrides">@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Exo+2:wght@400;500;600;700&display=swap');
+:root{--accent:#69f3ff;--accent-dark:#18d6f2;--accent-soft:#7ee8ff22;--accent-2:#8b9dff;--line:#22404b;--muted:#8ea8b1;--panel:#081118;--panel-2:#0c1820;--ink:#04080d;color:#e9fbff;background:#03070b;font-family:'Exo 2',Inter,Arial,sans-serif}
+body{background:radial-gradient(circle at 20% 8%,#10354a 0,transparent 26%),radial-gradient(circle at 88% 24%,#102333 0,transparent 24%),linear-gradient(180deg,#03070b 0,#08121a 52%,#04070b 100%);color:#eaf9ff}
+.app-shell{background:linear-gradient(180deg,#020509 0,#071019 25%,#03060a 100%)}
+.top-noise{opacity:.05;mix-blend-mode:screen}.page-wrap{width:min(1340px,calc(100% - 72px))}
+.site-header{background:rgba(3,8,13,.84);border-bottom:1px solid #173846;box-shadow:0 20px 50px rgba(0,0,0,.35)}
+.brand-mark{background:linear-gradient(135deg,var(--accent) 0,#baf9ff 100%);clip-path:polygon(16% 0,100% 0,84% 100%,0 100%);box-shadow:0 0 30px #5ef4ff44}
+.brand-letters,.section-intro h2,.process-header h2,.contact-copy h2,.hero h1,.service-card h3,.domain-panel h3,.case-body h3,.step h3{font-family:'Orbitron','Space Grotesk',sans-serif;font-weight:700;letter-spacing:-.04em}
+.brand-systems,.site-nav,.small-mono,.section-eyebrow,.card-kicker,.service-id,.chip-row,.hero-eyebrow,.hero-caption,.scroll-indicator,.strip-label,.strip-items,.nav-cta,.hero-visual-header,.hero-visual-footer,.hud,.art-corner,.coord-line,.domain-num,.domain-button,.selected-index,.pipeline-label,.stage-counter,.domain-tech,.case-body>span,.case-body>div,.step-top,.form-heading,.form-footnote,.footer-main>span,.footer-bottom,.status-circle{font-family:'Orbitron','Space Mono',monospace}
+.site-nav{font-size:11px;letter-spacing:.14em;color:#a9d9e2}.site-nav a{opacity:.82}.site-nav a:hover{opacity:1;color:var(--accent)}
+.nav-cta,.button,.domain-button,.project-form button[type="submit"],.project-form .submit-button{border-radius:0;clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px));text-transform:uppercase;letter-spacing:.14em}
+.nav-cta{border-color:#2c8ba3;background:linear-gradient(180deg,#0a1620,#081017);color:#c8f9ff;box-shadow:inset 0 0 0 1px #15333f,0 0 18px #0ecfff18}.nav-cta:hover{background:linear-gradient(180deg,#69f3ff,#32d8f0);color:#031118}
+.hero{padding-top:90px;padding-bottom:88px;gap:48px}.hero:before{background:radial-gradient(circle,#2a8ab14a 0,transparent 60%)}.hero:after{content:'';position:absolute;inset:70px 0 auto auto;width:420px;height:420px;background:radial-gradient(circle,#7cf0ff10 0,transparent 72%);filter:blur(20px);pointer-events:none}
+.hero-eyebrow{color:#9ddfeb;letter-spacing:.18em}.hero-led{border-color:var(--accent);box-shadow:0 0 0 6px #72e9ff12,0 0 14px #72e9ff77}.hero h1{font-size:clamp(54px,5.8vw,90px);line-height:1.02;white-space:normal;text-transform:uppercase;text-shadow:0 0 18px #43d9ff20}.hero h1 span,.hero h1 em{color:var(--accent);text-shadow:0 0 24px #69f3ff55}.hero-copy>p,.section-intro p,.process-header p,.contact-copy p,.service-card p,.domain-panel p,.case-body p,.step p{color:#99b5bf}
+.hero-visual,.service-card,.integration-banner,.domain-panel,.use-case,.step,.project-form,.contact-copy,.site-footer{background:linear-gradient(180deg,rgba(8,18,24,.92),rgba(6,12,18,.96));border:1px solid #174151;box-shadow:0 18px 48px rgba(0,0,0,.28),inset 0 0 0 1px rgba(105,243,255,.04)}
+.hero-visual{box-shadow:0 20px 80px rgba(0,0,0,.45),inset 0 0 0 1px rgba(105,243,255,.06);background:radial-gradient(ellipse at 50% 38%,#113d56 0,#08131a 45%,#04080d 76%)}
+.hero-visual:after,.service-card:after,.domain-panel:after,.use-case:after,.step:after,.project-form:after{content:'';pointer-events:none;position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.05),transparent 15%),repeating-linear-gradient(180deg,rgba(105,243,255,.03) 0 1px,transparent 1px 6px);mix-blend-mode:screen;opacity:.35}
+.hero-visual-header,.hero-visual-footer{color:#9fc8d2;border-color:#174151;background:linear-gradient(180deg,rgba(13,28,37,.78),rgba(7,15,20,.78))}.hero-visual-footer span:first-child,.live-dot,.hud-value,.accent-text{color:var(--accent)}
+.hud{background:rgba(8,20,28,.82);border-color:#258ea7;color:#d5faff}.hud-progress i{background:linear-gradient(90deg,#66f2ff,#b2fbff)}
+.capability-strip{background:#051018;border-color:#143340}.strip-label{color:#75afbc}.strip-items{color:#d5f8ff}.strip-items svg{color:var(--accent)}
+.section-eyebrow{color:#8be9f7;letter-spacing:.18em}.tiny-cross,.eyebrow-divider{color:var(--accent);background:var(--accent)}
+.section-intro h2 span,.process-header h2 span,.contact-copy h2 em{color:#8cc8ff;font-style:normal}
+.service-card{min-height:438px;border-color:#173f4e;background:linear-gradient(180deg,#09141a,#070d13)}.service-card:hover{transform:translateY(-8px);border-color:#4dc4db;background:linear-gradient(180deg,#0c1b23,#081118)}.card-kicker{color:#8adceb}.chip-row span{border-color:#27515f;background:#0b161c;color:#bef6ff}
+.integration-banner{border-color:#265b6d;background:linear-gradient(135deg,#0b1821,#091119)}.integration-icon{background:linear-gradient(135deg,#183b49,#0b1318);border:1px solid #2b7d96;color:var(--accent)}
+.approach-section{background:linear-gradient(180deg,rgba(7,14,20,.5),rgba(3,6,10,.96))}.domain-menu{gap:10px}.domain-button{border-color:#1b4352;background:linear-gradient(180deg,#0b151d,#081018);color:#cfeff6}.domain-button.active,.domain-button:hover{border-color:#57ddef;background:linear-gradient(180deg,#113749,#0c1d28);color:#fff;box-shadow:0 0 28px #69f3ff20}.domain-arrow{color:var(--accent)}
+.domain-panel h3{font-size:clamp(34px,3.8vw,52px);text-transform:uppercase}.pipeline-stage{border-color:#24505f;background:linear-gradient(180deg,#0b1720,#091018)}.pipe-arrow{color:#76ebff}.domain-tech div span{border-color:#214a58;background:#0a1218;color:#d6fbff}
+.use-case{border-color:#183d4c;background:linear-gradient(180deg,#08131a,#060d13)}.case-body span{color:#78dff1}.case-body div{color:#b1f8ff}.scanner-frame,.agent-ui,.adaptive-ui{border-color:#2a7e95;background:linear-gradient(180deg,#09131b,#060b10)}
+.scan-top,.scan-bottom,.adaptive-hint,.agent-head b{color:#7edff0}.scan-object,.scan-triangle{filter:drop-shadow(0 0 16px #69f3ff55)}
+.process-section{padding-bottom:140px}.steps-grid{gap:14px}.step{border-color:#194455;background:linear-gradient(180deg,#09141b,#050b11)}.step-top{color:#79dff0}.step:hover{transform:translateY(-6px);border-color:#5adcf0}
+.contact-section{padding:0 0 140px}.contact-copy{padding:34px 34px 38px;border-color:#1b4959}.contact-notes span{border-color:#28505d;background:#081219;color:#ddf9ff}.contact-decoration{color:#79ddf0;text-shadow:0 0 15px #69f3ff33;letter-spacing:.18em}
+.project-form{border-color:#1d4d5f;background:linear-gradient(180deg,#09141a,#050b11)}.form-field input,.form-field select,.form-field textarea{background:#08131a;border-color:#1f4653;color:#ebfbff;border-radius:0}.form-field label{color:#94d8e5}.form-field input::placeholder,.form-field textarea::placeholder{color:#688690}.project-form button[type="submit"],.submit-button{background:linear-gradient(180deg,#69f3ff,#2ad2ea)!important;color:#031018!important;border:none;box-shadow:0 10px 30px #69f3ff2e}.project-form button[type="submit"]:hover,.submit-button:hover{filter:brightness(1.06);transform:translateY(-3px)}
+.footer-main>span{color:#8be5f4}.site-footer{border-top:1px solid #163d4b;background:linear-gradient(180deg,#050b11,#020508)}.footer-links a:hover,.footer-bottom a:hover{color:var(--accent)}
+@media (max-width: 920px){.page-wrap{width:min(100% - 32px,1340px)}.hero h1{font-size:clamp(42px,10vw,72px)}.site-nav{background:rgba(4,9,13,.96)}.hero-visual,.service-card,.domain-panel,.use-case,.step,.project-form,.contact-copy{clip-path:none}.nav-cta,.button,.domain-button,.project-form button[type="submit"],.project-form .submit-button{clip-path:none}}
+</style></head><body><div id="root"></div><script>/*
  React v16.0.0
- react.production.min.js
+ reoperate.production.min.js
 
  Copyright (c) 2013-present, Facebook, Inc.
 
@@ -33,10 +66,10 @@ typeof h)for(a=h.call(a),g=0;!(e=a.next()).done;)e=e.value,h=b+F(e,g++),f+=u(e,h
 (a=t.cloneAndReplaceKey(a,e+(!a.key||b&&b.key===a.key?"":(""+a.key).replace(N,"$\x26/")+"/")+c)),d.push(a))}function G(a,b,c,d,e){var f="";null!=c&&(f=(""+c).replace(N,"$\x26/")+"/");b=K(b,f,d,e);null==a||u(a,"",U,b);L(b)}var O=Object.getOwnPropertySymbols,V=Object.prototype.hasOwnProperty,W=Object.prototype.propertyIsEnumerable,x=function(){try{if(!Object.assign)return!1;var a=new String("abc");a[5]="de";if("5"===Object.getOwnPropertyNames(a)[0])return!1;var b={};for(a=0;10>a;a++)b["_"+String.fromCharCode(a)]=
 a;if("0123456789"!==Object.getOwnPropertyNames(b).map(function(a){return b[a]}).join(""))return!1;var c={};"abcdefghijklmnopqrst".split("").forEach(function(a){c[a]=a});return"abcdefghijklmnopqrst"!==Object.keys(Object.assign({},c)).join("")?!1:!0}catch(d){return!1}}()?Object.assign:function(a,b){if(null===a||void 0===a)throw new TypeError("Object.assign cannot be called with null or undefined");var c=Object(a);for(var d,e=1;e<arguments.length;e++){var f=Object(arguments[e]);for(var g in f)V.call(f,
 g)&&(c[g]=f[g]);if(O){d=O(f);for(var h=0;h<d.length;h++)W.call(f,d[h])&&(c[d[h]]=f[d[h]])}}return c},B={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}},A={};r.prototype.isReactComponent={};r.prototype.setState=function(a,b){"object"!==typeof a&&"function"!==typeof a&&null!=a?z("85"):void 0;this.updater.enqueueSetState(this,a,b,"setState")};r.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,"forceUpdate")};
-D.prototype=r.prototype;var k=C.prototype=new D;k.constructor=C;x(k,r.prototype);k.isPureReactComponent=!0;k=E.prototype=new D;k.constructor=E;x(k,r.prototype);k.unstable_isAsyncReactComponent=!0;k.render=function(){return this.props.children};var I={current:null},P=Object.prototype.hasOwnProperty,J="function"===typeof Symbol&&Symbol["for"]&&Symbol["for"]("react.element")||60103,Q={key:!0,ref:!0,__self:!0,__source:!0};n.createElement=function(a,b,c){var d,e={},f=null,g=null,h=null,k=null;if(null!=
+D.prototype=r.prototype;var k=C.prototype=new D;k.constructor=C;x(k,r.prototype);k.isPureReactComponent=!0;k=E.prototype=new D;k.constructor=E;x(k,r.prototype);k.unstable_isAsyncReactComponent=!0;k.render=function(){return this.props.children};var I={current:null},P=Object.prototype.hasOwnProperty,J="function"===typeof Symbol&&Symbol["for"]&&Symbol["for"]("reoperate.element")||60103,Q={key:!0,ref:!0,__self:!0,__source:!0};n.createElement=function(a,b,c){var d,e={},f=null,g=null,h=null,k=null;if(null!=
 b)for(d in void 0!==b.ref&&(g=b.ref),void 0!==b.key&&(f=""+b.key),h=void 0===b.__self?null:b.__self,k=void 0===b.__source?null:b.__source,b)P.call(b,d)&&!Q.hasOwnProperty(d)&&(e[d]=b[d]);var m=arguments.length-2;if(1===m)e.children=c;else if(1<m){for(var l=Array(m),p=0;p<m;p++)l[p]=arguments[p+2];e.children=l}if(a&&a.defaultProps)for(d in m=a.defaultProps,m)void 0===e[d]&&(e[d]=m[d]);return n(a,f,g,h,k,I.current,e)};n.createFactory=function(a){var b=n.createElement.bind(null,a);b.type=a;return b};
 n.cloneAndReplaceKey=function(a,b){return n(a.type,b,a.ref,a._self,a._source,a._owner,a.props)};n.cloneElement=function(a,b,c){var d=x({},a.props),e=a.key,f=a.ref,g=a._self,h=a._source,k=a._owner;if(null!=b){void 0!==b.ref&&(f=b.ref,k=I.current);void 0!==b.key&&(e=""+b.key);if(a.type&&a.type.defaultProps)var m=a.type.defaultProps;for(l in b)P.call(b,l)&&!Q.hasOwnProperty(l)&&(d[l]=void 0===b[l]&&void 0!==m?m[l]:b[l])}var l=arguments.length-2;if(1===l)d.children=c;else if(1<l){m=Array(l);for(var p=
-0;p<l;p++)m[p]=arguments[p+2];d.children=m}return n(a.type,e,f,g,h,k,d)};n.isValidElement=function(a){return"object"===typeof a&&null!==a&&a.$$typeof===J};var t=n;q.thatReturns=v;q.thatReturnsFalse=v(!1);q.thatReturnsTrue=v(!0);q.thatReturnsNull=v(null);q.thatReturnsThis=function(){return this};q.thatReturnsArgument=function(a){return a};var H=q,M="function"===typeof Symbol&&Symbol.iterator,S="function"===typeof Symbol&&Symbol["for"]&&Symbol["for"]("react.element")||60103,N=/\/+/g,w=[];return{Children:{map:function(a,
+0;p<l;p++)m[p]=arguments[p+2];d.children=m}return n(a.type,e,f,g,h,k,d)};n.isValidElement=function(a){return"object"===typeof a&&null!==a&&a.$$typeof===J};var t=n;q.thatReturns=v;q.thatReturnsFalse=v(!1);q.thatReturnsTrue=v(!0);q.thatReturnsNull=v(null);q.thatReturnsThis=function(){return this};q.thatReturnsArgument=function(a){return a};var H=q,M="function"===typeof Symbol&&Symbol.iterator,S="function"===typeof Symbol&&Symbol["for"]&&Symbol["for"]("reoperate.element")||60103,N=/\/+/g,w=[];return{Children:{map:function(a,
 b,c){if(null==a)return a;var d=[];G(a,d,null,b,c);return d},forEach:function(a,b,c){if(null==a)return a;b=K(null,null,b,c);null==a||u(a,"",T,b);L(b)},count:function(a){return null==a?0:u(a,"",H.thatReturnsNull,null)},toArray:function(a){var b=[];G(a,b,null,H.thatReturnsArgument);return b},only:function(a){t.isValidElement(a)?void 0:z("143");return a}},Component:r,PureComponent:C,unstable_AsyncComponent:E,createElement:t.createElement,cloneElement:t.cloneElement,isValidElement:t.isValidElement,createFactory:t.createFactory,
 version:"16.0.0",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:I,assign:x}}}"object"===typeof exports&&"undefined"!==typeof module?module.exports=y():"function"===typeof define&&define.amd?define(y):this.React=y();
 </script><script>/*
@@ -201,8 +234,8 @@ case "details":l.trapBubbledEvent("topToggle","toggle",a);break;case "input":U.i
 typeof f?a.textContent!==f&&(d=["children",f]):"number"===typeof f&&a.textContent!==""+f&&(d=["children",""+f]):Fb.hasOwnProperty(g)&&null!=f&&R(e,g));switch(b){case "input":xa.track(a);U.postMountWrapper(a,c);break;case "textarea":xa.track(a);V.postMountWrapper(a,c);break;case "select":case "option":break;default:"function"===typeof c.onClick&&(a.onclick=w)}return d},diffHydratedText:function(a,b){return a.nodeValue!==b},warnForDeletedHydratableElement:function(){},warnForDeletedHydratableText:function(){},
 warnForInsertedHydratedElement:function(){},warnForInsertedHydratedText:function(){},restoreControlledState:function(a,b,c){switch(b){case "input":U.restoreControlledState(a,c);break;case "textarea":V.restoreControlledState(a,c);break;case "select":ja.restoreControlledState(a,c)}}},Gb=void 0;if(z)if("function"!==typeof requestIdleCallback){var De=null,Fc=null,Gc=!1,Hc=!1,Hb=0,Ib=33,Ua=33,Nf={timeRemaining:"object"===typeof performance&&"function"===typeof performance.now?function(){return Hb-performance.now()}:
 function(){return Hb-Date.now()}},Ee="__reactIdleCallback$"+Math.random().toString(36).slice(2);window.addEventListener("message",function(a){a.source===window&&a.data===Ee&&(Gc=!1,a=Fc,Fc=null,null!==a&&a(Nf))},!1);var Of=function(a){Hc=!1;var b=a-Hb+Ua;b<Ua&&Ib<Ua?(8>b&&(b=8),Ua=b<Ib?Ib:b):Ib=b;Hb=a+Ua;Gc||(Gc=!0,window.postMessage(Ee,"*"));b=De;De=null;null!==b&&b(a)};Gb=function(a){Fc=a;Hc||(Hc=!0,requestAnimationFrame(Of));return 0}}else Gb=requestIdleCallback;else Gb=function(a){setTimeout(function(){a({timeRemaining:function(){return Infinity}})});
-return 0};var Pf=Gb,pc=void 0,qc=void 0,ba={},bb=[],da=-1,Qf=Oa.isFiberMounted,ca={current:ba},S={current:!1},cb=ba;if("function"===typeof Symbol&&Symbol["for"]){var Fe=Symbol["for"]("react.coroutine");var Ge=Symbol["for"]("react.yield")}else Fe=60104,Ge=60105;var Rf=Ge,Sf=Fe,Ic="function"===typeof Symbol&&Symbol["for"]&&Symbol["for"]("react.portal")||60106,te={createPortal:function(a,b,c){var d=3<arguments.length&&void 0!==arguments[3]?arguments[3]:null;return{$$typeof:Ic,key:null==d?null:""+d,children:a,
-containerInfo:b,implementation:c}},isPortal:function(a){return"object"===typeof a&&null!==a&&a.$$typeof===Ic},REACT_PORTAL_TYPE:Ic},sb=Sf,tb=Rf,ub=te.REACT_PORTAL_TYPE,$b=ad,vb=Array.isArray,Od="function"===typeof Symbol&&Symbol.iterator,rb="function"===typeof Symbol&&Symbol["for"]&&Symbol["for"]("react.element")||60103,Xb=rc(!0,!0),Zb=rc(!1,!0),Yb=rc(!1,!1),bf=Object.prototype.hasOwnProperty,af=Oa.isMounted,Ze=yc.ReactCurrentOwner,Vb=null,Wb=null,qa={},db=yc.ReactCurrentOwner;sc._injectFiber=function(a){$c=
+return 0};var Pf=Gb,pc=void 0,qc=void 0,ba={},bb=[],da=-1,Qf=Oa.isFiberMounted,ca={current:ba},S={current:!1},cb=ba;if("function"===typeof Symbol&&Symbol["for"]){var Fe=Symbol["for"]("reoperate.coroutine");var Ge=Symbol["for"]("reoperate.yield")}else Fe=60104,Ge=60105;var Rf=Ge,Sf=Fe,Ic="function"===typeof Symbol&&Symbol["for"]&&Symbol["for"]("reoperate.portal")||60106,te={createPortal:function(a,b,c){var d=3<arguments.length&&void 0!==arguments[3]?arguments[3]:null;return{$$typeof:Ic,key:null==d?null:""+d,children:a,
+containerInfo:b,implementation:c}},isPortal:function(a){return"object"===typeof a&&null!==a&&a.$$typeof===Ic},REACT_PORTAL_TYPE:Ic},sb=Sf,tb=Rf,ub=te.REACT_PORTAL_TYPE,$b=ad,vb=Array.isArray,Od="function"===typeof Symbol&&Symbol.iterator,rb="function"===typeof Symbol&&Symbol["for"]&&Symbol["for"]("reoperate.element")||60103,Xb=rc(!0,!0),Zb=rc(!1,!0),Yb=rc(!1,!1),bf=Object.prototype.hasOwnProperty,af=Oa.isMounted,Ze=yc.ReactCurrentOwner,Vb=null,Wb=null,qa={},db=yc.ReactCurrentOwner;sc._injectFiber=function(a){$c=
 a};var Tf=Oa.findCurrentHostFiber,Uf=Oa.findCurrentHostFiberWithNoPortals;sc._injectFiber(function(a){var b;a:{Qf(a)&&2===a.tag?void 0:m("170");for(b=a;3!==b.tag;){if(Ea(b)){b=b.stateNode.__reactInternalMemoizedMergedChildContext;break a}(b=b["return"])?void 0:m("171")}b=b.stateNode.context}return Ea(a)?kd(a,b,!1):b});var Rb=null,He={getOffsets:function(a){var b=window.getSelection&&window.getSelection();if(!b||0===b.rangeCount)return null;var c=b.anchorNode,d=b.anchorOffset,e=b.focusNode,f=b.focusOffset,
 g=b.getRangeAt(0);try{g.startContainer.nodeType,g.endContainer.nodeType}catch(k){return null}b=b.anchorNode===b.focusNode&&b.anchorOffset===b.focusOffset?0:g.toString().length;var h=g.cloneRange();h.selectNodeContents(a);h.setEnd(g.startContainer,g.startOffset);a=h.startContainer===h.endContainer&&h.startOffset===h.endOffset?0:h.toString().length;g=a+b;b=document.createRange();b.setStart(c,d);b.setEnd(e,f);c=b.collapsed;return{start:c?g:a,end:c?a:g}},setOffsets:function(a,b){if(window.getSelection){var c=
 window.getSelection(),d=a[Xc()].length,e=Math.min(b.start,d);b=void 0===b.end?e:Math.min(b.end,d);!c.extend&&e>b&&(d=b,b=e,e=d);d=Yc(a,e);a=Yc(a,b);if(d&&a){var f=document.createRange();f.setStart(d.node,d.offset);c.removeAllRanges();e>b?(c.addRange(f),c.extend(a.node,a.offset)):(f.setEnd(a.node,a.offset),c.addRange(f))}}}},Va={hasSelectionCapabilities:function(a){var b=a&&a.nodeName&&a.nodeName.toLowerCase();return b&&("input"===b&&"text"===a.type||"textarea"===b||"true"===a.contentEditable)},getSelectionInformation:function(){var a=
@@ -262,10 +295,10 @@ const useEffect = () => { };
 const { ArrowDownRight, ArrowRight, ArrowUpRight, Atom, Bot, BrainCircuit, Check, ChevronDown, CircuitBoard, Code2, Cpu, Database, Download, Gauge, GitBranch, Layers, Menu, MoveUpRight, Network, Radar, ScanEye, Settings2, ShieldCheck, Workflow, X, Zap } = ICONS;
 const services = [
     {
-        id: '01', icon: BrainCircuit, kicker: 'INTELLIGENCE LAYER',
-        title: 'AI Model\nEngineering',
-        copy: 'Custom model training, fine-tuning, computer vision, data pipelines, evaluation and inference optimization.',
-        chips: ['MODEL TRAINING', 'FINE-TUNING', 'VISION SYSTEMS'],
+        id: '01', icon: BrainCircuit, kicker: 'COGNITION STACK',
+        title: 'Machine Intelligence\nEngineering',
+        copy: 'Model training, fine-tuning, perception systems, data pipelines, evaluation and inference tuned for real operating environments.',
+        chips: ['MODEL TRAINING', 'PERCEPTION', 'INFERENCE OPS'],
         className: 'model-card',
         decorative: React.createElement("div", { className: "mini-brain" },
             React.createElement("span", null),
@@ -279,10 +312,10 @@ const services = [
             React.createElement("span", null))
     },
     {
-        id: '02', icon: Workflow, kicker: 'ACTION LAYER',
-        title: 'Autonomous\nAgent Systems',
-        copy: 'Agents that reason, use tools, operate applications, coordinate tasks, and recover when real workflows break.',
-        chips: ['MULTI-AGENT', 'BROWSER / OS', 'TOOL INTEGRATION'],
+        id: '02', icon: Workflow, kicker: 'AUTONOMY STACK',
+        title: 'Autonomous\nExecution Agents',
+        copy: 'Agents that observe state, plan actions, operate software, use tools, request approvals and recover when workflows break.',
+        chips: ['STATEFUL AGENTS', 'SOFTWARE OPS', 'RECOVERY LOOPS'],
         className: 'agent-card',
         decorative: React.createElement("div", { className: "mini-nodes" },
             React.createElement("i", null),
@@ -292,10 +325,10 @@ const services = [
             React.createElement("i", null))
     },
     {
-        id: '03', icon: Bot, kicker: 'PHYSICAL LAYER',
-        title: 'Robotics\nSoftware',
-        copy: 'Robot software, learning and training workflows, simulation, perception, device control and real-world integration.',
-        chips: ['ROS 2', 'ROBOT TRAINING', 'SYSTEM INTEGRATION'],
+        id: '03', icon: Bot, kicker: 'MOTION STACK',
+        title: 'Robotics\nControl Software',
+        copy: 'Robot perception, planning, control, simulation, telemetry and training workflows that bridge digital intelligence with physical action.',
+        chips: ['ROS 2', 'CONTROL STACK', 'ROBOT TRAINING'],
         className: 'robot-card',
         decorative: React.createElement("div", { className: "mini-robot" },
             React.createElement("div", null),
@@ -303,49 +336,51 @@ const services = [
             React.createElement("div", null))
     },
     {
-        id: '04', icon: Settings2, kicker: 'ADAPTIVE LAYER',
-        title: 'Configurable\nMachines',
-        copy: 'Modular machine software, adaptive configurations, sensor feedback, state-based control and hardware integration.',
-        chips: ['ADAPTIVE CONTROL', 'SENSORS / I/O', 'EMBEDDED INTEGRATION'],
+        id: '04', icon: Settings2, kicker: 'ADAPTATION STACK',
+        title: 'Adaptive\nMachine Systems',
+        copy: 'Software-defined machines with state-based control, sensor feedback, configurable modes, safety logic and hardware integration.',
+        chips: ['STATE MACHINES', 'SENSOR I/O', 'CONTROL LOGIC'],
         className: 'machine-card',
         decorative: React.createElement("div", { className: "mini-machine" },
-            React.createElement("i", null),
-            React.createElement("i", null),
-            React.createElement("i", null))
+            React.createElement("span", null),
+            React.createElement("span", null),
+            React.createElement("span", null),
+            React.createElement("span", null),
+            React.createElement("span", null))
     },
 ];
 const domains = [
     {
         id: 'models', label: 'AI MODELS', index: '01', icon: BrainCircuit,
-        eyebrow: 'DATA → MODEL → INFERENCE',
-        title: 'Train intelligence for a specific job.',
-        description: 'From raw business or sensor data to evaluated, deployable models. We focus on fit-for-purpose learning, measurable accuracy and practical deployment constraints.',
-        stack: ['Data strategy', 'Fine-tuning / ML', 'Benchmarking', 'Model serving'],
-        stages: ['Raw data', 'Training & evaluation', 'Optimized model', 'Live inference']
+        eyebrow: 'DATA → TRAINING → INFERENCE',
+        title: 'Train intelligence for a machine or workflow.',
+        description: 'We move from raw data to deployable cognition layers — tuned for accuracy, latency, robustness and the environment they will actually operate in.',
+        stack: ['Data pipelines', 'Fine-tuning / ML', 'Evaluation harnesses', 'Model serving'],
+        stages: ['Raw data', 'Training loop', 'Validated model', 'Live inference']
     },
     {
         id: 'agents', label: 'AI AGENTS', index: '02', icon: Workflow,
-        eyebrow: 'INTENT → PLANNING → EXECUTION',
-        title: 'Turn decisions into completed work.',
-        description: 'Design agents with explicit tool boundaries, reliable workflows, approvals, observability and recovery. Useful systems do more than generate a convincing paragraph.',
-        stack: ['Tool orchestration', 'Browser / desktop control', 'Multi-agent systems', 'Human oversight'],
-        stages: ['User objective', 'Agent orchestration', 'Tools & applications', 'Verified result']
+        eyebrow: 'STATE → PLAN → EXECUTE',
+        title: 'Turn software into an autonomous operator.',
+        description: 'Agents are designed with tools, boundaries, recovery logic, observability and approval flows so they can perform real work instead of producing only text.',
+        stack: ['Tool orchestration', 'Browser / desktop control', 'Multi-agent execution', 'Human oversight'],
+        stages: ['Mission input', 'Agent reasoning', 'Tool execution', 'Verified output']
     },
     {
         id: 'robotics', label: 'ROBOTICS', index: '03', icon: Bot,
-        eyebrow: 'PERCEPTION → CONTROL → MOTION',
-        title: 'Give robots the software to operate.',
-        description: 'Train robotic behaviors where appropriate, connect perception and control to real hardware, and bridge simulation with real-world integration and safety-aware boundaries.',
-        stack: ['ROS 2 / simulation', 'Robot learning / training', 'Device integration', 'Telemetry / diagnostics'],
-        stages: ['Camera & sensors', 'Perception & planning', 'Control interface', 'Robot execution']
+        eyebrow: 'PERCEIVE → PLAN → CONTROL',
+        title: 'Give robots perception, planning and control.',
+        description: 'We connect sensors, robot software, simulation, training, control logic and diagnostics so robotic systems can act reliably in physical environments.',
+        stack: ['ROS 2 / simulation', 'Robot training', 'Control integration', 'Telemetry / diagnostics'],
+        stages: ['Sensors', 'Perception & planning', 'Control interface', 'Robot motion']
     },
     {
         id: 'machines', label: 'MACHINES', index: '04', icon: Settings2,
-        eyebrow: 'SENSORS → STATE → ADAPTATION',
-        title: 'Make machines configurable, not fixed.',
-        description: 'Engineer software-defined configurations, adaptive state machines, safety interlocks and feedback loops for modular and reconfigurable equipment.',
+        eyebrow: 'SENSE → STATE → ADAPT',
+        title: 'Make machines configurable in software.',
+        description: 'We engineer reconfigurable machine logic using state machines, policies, feedback loops, safety interlocks and hardware abstraction.',
         stack: ['State machines', 'Embedded protocols', 'Feedback control', 'Modular architecture'],
-        stages: ['Machine telemetry', 'State & policy logic', 'Configuration change', 'Actuation & verification']
+        stages: ['Telemetry', 'State & policy logic', 'Configuration shift', 'Actuation']
     },
 ];
 const projectTypes = ['AI model training', 'Autonomous agents', 'Robotics software', 'Configurable machines', 'Systems integration', 'Not sure yet'];
@@ -546,10 +581,10 @@ function App() {
                 React.createElement("nav", { className: `site-nav ${menuOpen ? 'nav-open' : ''}`, "aria-label": "Primary navigation" },
                     [['Expertise', '#expertise'], ['Our approach', '#approach'], ['Applications', '#applications']].map(([name, href]) => React.createElement("a", { href: href, onClick: () => setMenuOpen(false), key: href }, name)),
                     React.createElement("a", { className: "mobile-contact", href: "#contact", onClick: () => setMenuOpen(false) },
-                        "Start a project ",
+                        "Initiate build ",
                         React.createElement(ArrowUpRight, { size: 16 }))),
                 React.createElement("a", { className: "nav-cta", href: "#contact" },
-                    "LET'S BUILD ",
+                    "INITIATE BUILD ",
                     React.createElement(ArrowUpRight, { size: 16 })),
                 React.createElement("button", { className: "mobile-menu", "aria-label": menuOpen ? 'Close menu' : 'Open menu', "aria-expanded": menuOpen, onClick: () => setMenuOpen(v => !v) }, menuOpen ? React.createElement(X, { size: 23 }) : React.createElement(Menu, { size: 23 })))),
         React.createElement("main", null,
@@ -557,41 +592,41 @@ function App() {
                 React.createElement("div", { className: "hero-copy" },
                     React.createElement("div", { className: "hero-eyebrow" },
                         React.createElement("span", { className: "hero-led" }),
-                        React.createElement("span", null, "AN ENGINEERING STUDIO FOR THE NEXT ERA")),
+                        React.createElement("span", null, "ROBOTIC INTELLIGENCE / SYSTEMS LAB")),
                     React.createElement("h1", { id: "hero-title" },
-                        "We engineer",
+                        "We build",
                         React.createElement("br", null),
-                        React.createElement("span", null, "intelligence."),
+                        React.createElement("span", null, "robotic systems."),
                         React.createElement("br", null),
-                        "Then make it ",
-                        React.createElement("em", null, "act.")),
-                    React.createElement("p", null, "Custom AI models. Autonomous agents. Robotics software. Configurable machines. One engineering partner to connect intelligence with the real world."),
+                        "Then make them ",
+                        React.createElement("em", null, "operate.")),
+                    React.createElement("p", null, "Machine intelligence, autonomous agents, robotics software, control systems and configurable machines — engineered as one coordinated operating stack."),
                     React.createElement("div", { className: "hero-actions" },
                         React.createElement("a", { className: "button button-primary", href: "#contact" },
-                            "Build with us ",
+                            "Initiate build ",
                             React.createElement(ArrowUpRight, { size: 19 })),
                         React.createElement("a", { className: "button button-ghost", href: "#expertise" },
-                            "Explore our expertise ",
+                            "View system stack ",
                             React.createElement(ArrowRight, { size: 18 }))),
                     React.createElement("div", { className: "hero-below" },
                         React.createElement("div", { className: "scroll-indicator" },
                             React.createElement("span", null),
                             React.createElement("small", null, "SCROLL TO EXPLORE")),
-                        React.createElement("span", { className: "hero-caption" }, "FROM SOFTWARE TO PHYSICAL SYSTEMS"))),
+                        React.createElement("span", { className: "hero-caption" }, "FROM CODE TO CONTROL LOOPS"))),
                 React.createElement("div", { className: "hero-visual" },
                     React.createElement("div", { className: "hero-visual-header" },
                         React.createElement("span", null,
-                            "ENGINEERING VISUALIZATION ",
+                            "ROBOTIC SYSTEM VISUALIZATION ",
                             React.createElement("span", { className: "thin-slash" }, "/"),
                             " 001"),
                         React.createElement("span", { className: "line-symbol" }, "\u25C8")),
                     React.createElement(RoboticsVisual, null),
                     React.createElement("div", { className: "hero-visual-footer" },
-                        React.createElement("span", null, "AI \u2194 CONTROL \u2194 MACHINE"),
+                        React.createElement("span", null, "PERCEPTION \u2194 CONTROL \u2194 ACTUATION"),
                         React.createElement("span", null, "FRAME / 001")))),
             React.createElement("div", { className: "capability-strip", "aria-label": "Core capabilities" },
                 React.createElement("div", { className: "page-wrap strip-inner" },
-                    React.createElement("span", { className: "strip-label" }, "WHAT WE CONNECT"),
+                    React.createElement("span", { className: "strip-label" }, "SYSTEM STACK"),
                     React.createElement("div", { className: "strip-items" },
                         React.createElement("span", null,
                             React.createElement(BrainCircuit, { size: 16 }),
@@ -610,33 +645,33 @@ function App() {
                             " MACHINES")))),
             React.createElement("section", { className: "expertise-section section-pad page-wrap", id: "expertise" },
                 React.createElement(Reveal, null,
-                    React.createElement(Eyebrow, { number: "01" }, "OUR EXPERTISE"),
+                    React.createElement(Eyebrow, { number: "01" }, "CORE SYSTEMS"),
                     React.createElement("div", { className: "section-intro" },
                         React.createElement("h2", null,
-                            "Four disciplines.",
+                            "Four machine domains.",
                             React.createElement("br", null),
-                            React.createElement("span", null, "One connected system.")),
-                        React.createElement("p", null, "Intelligence is only useful when it can be trained, deployed, integrated, and trusted to work beyond a demo."))),
+                            React.createElement("span", null, "One robotic architecture.")),
+                        React.createElement("p", null, "A robotic company needs more than models. It needs perception, execution, control logic, telemetry and integration built as one operational machine."))),
                 React.createElement(Reveal, { className: "service-grid" }, services.map(service => React.createElement(ServiceCard, { service: service, key: service.id }))),
                 React.createElement(Reveal, { className: "integration-banner" },
                     React.createElement("div", { className: "integration-icon" },
                         React.createElement(Network, { size: 29, strokeWidth: 1.6 })),
                     React.createElement("div", null,
-                        React.createElement("span", { className: "small-mono" }, "THE COMMON THREAD"),
-                        React.createElement("h3", null, "Systems integration, end to end."),
-                        React.createElement("p", null, "Cloud platforms, APIs, sensors, controllers, embedded hardware, business applications, deployment and monitoring.")),
+                        React.createElement("span", { className: "small-mono" }, "UNIFIED CONTROL LAYER"),
+                        React.createElement("h3", null, "Integration from cloud to controller."),
+                        React.createElement("p", null, "Cloud platforms, model serving, agents, APIs, PLC/MCU interfaces, sensors, robotics middleware, embedded hardware, deployment and telemetry.")),
                     React.createElement("a", { href: "#contact", "aria-label": "Discuss systems integration" },
                         React.createElement(ArrowUpRight, { size: 22 })))),
             React.createElement("section", { className: "approach-section", id: "approach" },
                 React.createElement("div", { className: "page-wrap approach-wrap" },
                     React.createElement(Reveal, null,
-                        React.createElement(Eyebrow, { number: "02" }, "ENGINEERING THE FULL STACK"),
+                        React.createElement(Eyebrow, { number: "02" }, "SYSTEM ARCHITECTURE"),
                         React.createElement("div", { className: "section-intro" },
                             React.createElement("h2", null,
-                                "From thought",
+                                "From signal",
                                 React.createElement("br", null),
-                                React.createElement("span", null, "to real-world action.")),
-                            React.createElement("p", null, "Explore how we architect systems across models, agents, robots, and adaptive machines."))),
+                                React.createElement("span", null, "to machine action.")),
+                            React.createElement("p", null, "Inspect how we architect the full pipeline across models, agents, robots and configurable machines."))),
                     React.createElement(Reveal, { className: "explorer" },
                         React.createElement("div", { className: "domain-menu", role: "tablist", "aria-label": "Explore engineering disciplines" }, domains.map(domain => {
                             const Icon = domain.icon;
@@ -672,13 +707,13 @@ function App() {
                                     item)))))))),
             React.createElement("section", { className: "applications-section section-pad page-wrap", id: "applications" },
                 React.createElement(Reveal, null,
-                    React.createElement(Eyebrow, { number: "03" }, "POSSIBLE APPLICATIONS"),
+                    React.createElement(Eyebrow, { number: "03" }, "DEPLOYMENT SCENARIOS"),
                     React.createElement("div", { className: "section-intro" },
                         React.createElement("h2", null,
-                            "Complex problems.",
+                            "Machine-scale problems.",
                             React.createElement("br", null),
-                            React.createElement("span", null, "Buildable solutions.")),
-                        React.createElement("p", null, "Illustrative project directions, not claims of completed client work. Every engagement starts with the actual constraints."))),
+                            React.createElement("span", null, "Buildable robotic systems.")),
+                        React.createElement("p", null, "Illustrative system directions, not claimed case studies. Every build begins with the real operating environment, hardware and constraints."))),
                 React.createElement(Reveal, { className: "use-cases" },
                     React.createElement("div", { className: "use-case" },
                         React.createElement("div", { className: "use-visual vision-visual" },
@@ -690,9 +725,9 @@ function App() {
                                 React.createElement("div", { className: "scan-cross scan-b" }),
                                 React.createElement("span", { className: "scan-bottom" }, "VISUAL INSPECTION / LIVE"))),
                         React.createElement("div", { className: "case-body" },
-                            React.createElement("span", null, "01 / INDUSTRIAL VISION"),
-                            React.createElement("h3", null, "Intelligent quality inspection"),
-                            React.createElement("p", null, "Computer vision, camera feeds, anomaly detection, inspection workflows and machine-side alerts."),
+                            React.createElement("span", null, "01 / PERCEPTION STACK"),
+                            React.createElement("h3", null, "Robotic visual inspection"),
+                            React.createElement("p", null, "Camera pipelines, vision models, defect detection, part verification and machine-triggered alerts or stop conditions."),
                             React.createElement("div", null,
                                 "VISION MODELS ",
                                 React.createElement("span", null, "\u2022"),
@@ -718,9 +753,9 @@ function App() {
                                         React.createElement(Zap, { size: 13 }),
                                         " EXECUTE TOOLS")))),
                         React.createElement("div", { className: "case-body" },
-                            React.createElement("span", null, "02 / DIGITAL OPERATIONS"),
-                            React.createElement("h3", null, "Agents that operate software"),
-                            React.createElement("p", null, "Cross-application task execution with tool permissions, workflow state, approvals and recovery."),
+                            React.createElement("span", null, "02 / AUTONOMOUS EXECUTION"),
+                            React.createElement("h3", null, "Agents that run operations"),
+                            React.createElement("p", null, "Autonomous software operators with tool permissions, stateful execution, approvals, retries and recovery."),
                             React.createElement("div", null,
                                 "AGENT SYSTEMS ",
                                 React.createElement("span", null, "\u2022"),
@@ -741,9 +776,9 @@ function App() {
                                     React.createElement("strong", null, "STATE B")),
                                 React.createElement("div", { className: "adaptive-hint bottom" }, "FEEDBACK LOOP / ACTIVE"))),
                         React.createElement("div", { className: "case-body" },
-                            React.createElement("span", null, "03 / ADAPTIVE MACHINES"),
-                            React.createElement("h3", null, "Software-defined machine behavior"),
-                            React.createElement("p", null, "Configurable operating states, telemetry-driven adjustments and hardware control integration."),
+                            React.createElement("span", null, "03 / RECONFIGURABLE CONTROL"),
+                            React.createElement("h3", null, "Software-defined machine states"),
+                            React.createElement("p", null, "Reconfigurable machine logic, telemetry-driven adaptation, interlocks and hardware control integration."),
                             React.createElement("div", null,
                                 "CONTROL SOFTWARE ",
                                 React.createElement("span", null, "\u2022"),
@@ -751,17 +786,17 @@ function App() {
             React.createElement("section", { className: "process-section page-wrap" },
                 React.createElement(Reveal, { className: "process-header" },
                     React.createElement("div", null,
-                        React.createElement(Eyebrow, { number: "04" }, "HOW WE WORK"),
+                        React.createElement(Eyebrow, { number: "04" }, "BUILD PROTOCOL"),
                         React.createElement("h2", null,
-                            "Engineered for reality.",
+                            "Engineered like a machine.",
                             React.createElement("br", null),
-                            React.createElement("span", null, "Not just the demo."))),
-                    React.createElement("p", null, "Scope tightly, build measurable prototypes, validate integrations, then make the system reliable enough to operate.")),
+                            React.createElement("span", null, "Validated beyond the prototype."))),
+                    React.createElement("p", null, "We scope the environment, construct the smallest working system, connect the hardware and software stack, and validate until it can operate repeatedly.")),
                 React.createElement(Reveal, { className: "steps-grid" }, [
-                    ['01', 'Discover', 'Define the job, environment, data, hardware, constraints and success metrics.'],
-                    ['02', 'Prototype', 'Build the smallest working model, agent, robotic or control system.'],
-                    ['03', 'Integrate', 'Connect real applications, devices, APIs and operational infrastructure.'],
-                    ['04', 'Validate & deploy', 'Measure performance, test failure paths and ship with monitoring.']
+                    ['01', 'Map the system', 'Define the objective, sensors, hardware, software boundaries, safety constraints and measurable outputs.'],
+                    ['02', 'Assemble the core', 'Build the first working perception, reasoning, execution or control loop.'],
+                    ['03', 'Connect the stack', 'Wire together models, agents, middleware, APIs, machines, telemetry and operator feedback.'],
+                    ['04', 'Harden & deploy', 'Stress the failure paths, validate repeatability, then deploy with diagnostics and monitoring.']
                 ].map(([number, name, copy], i) => React.createElement("div", { className: "step", key: name },
                     React.createElement("div", { className: "step-top" },
                         React.createElement("span", null, number),
@@ -771,23 +806,23 @@ function App() {
             React.createElement("section", { id: "contact", className: "contact-section" },
                 React.createElement("div", { className: "page-wrap contact-layout" },
                     React.createElement(Reveal, { className: "contact-copy" },
-                        React.createElement(Eyebrow, { number: "05" }, "START A CONVERSATION"),
+                        React.createElement(Eyebrow, { number: "05" }, "INITIATE CONTACT"),
                         React.createElement("h2", null,
-                            "Building something",
+                            "Need a",
                             React.createElement("br", null),
-                            React.createElement("em", null, "unconventional?")),
-                        React.createElement("p", null, "Whether it's a specialized AI model, an agent that operates real workflows, or software for a robot or configurable machine, start with the problem you're trying to solve."),
+                            React.createElement("em", null, "robotic system?")),
+                        React.createElement("p", null, "If you need machine intelligence, robot software, autonomous agents or configurable machine logic, send the mission profile and we will map the right build path."),
                         React.createElement("div", { className: "contact-notes" },
                             React.createElement("span", null,
                                 React.createElement(Check, { size: 16 }),
-                                " Technical discovery first"),
+                                " System discovery first"),
                             React.createElement("span", null,
                                 React.createElement(Check, { size: 16 }),
-                                " Practical prototyping"),
+                                " Prototype the control loop"),
                             React.createElement("span", null,
                                 React.createElement(Check, { size: 16 }),
-                                " Designed for integration")),
-                        React.createElement("div", { className: "contact-decoration" }, "BUILD / TEST / ADAPT / REPEAT")),
+                                " Integrate with real hardware")),
+                        React.createElement("div", { className: "contact-decoration" }, "SCAN / PLAN / CONTROL / ADAPT")),
                     React.createElement(Reveal, null,
                         React.createElement(ProjectForm, null))))),
         React.createElement("footer", { className: "site-footer" },
@@ -798,7 +833,7 @@ function App() {
                     React.createElement("a", { href: "#approach" }, "Approach"),
                     React.createElement("a", { href: "#applications" }, "Applications"),
                     React.createElement("a", { href: "#contact" }, "Contact")),
-                React.createElement("span", null, "INTELLIGENCE MADE OPERATIONAL.")),
+                React.createElement("span", null, "ROBOTIC INTELLIGENCE, MADE OPERATIONAL.")),
             React.createElement("div", { className: "page-wrap footer-bottom" },
                 React.createElement("span", null,
                     "\u00A9 ",
@@ -809,7 +844,7 @@ function App() {
                     React.createElement("span", { className: "separator-dot" }, "\u00B7"),
                     " ROBOTICS ",
                     React.createElement("span", { className: "separator-dot" }, "\u00B7"),
-                    " ADAPTIVE ENGINEERING"),
+                    " ROBOTIC ENGINEERING"),
                 React.createElement("a", { href: "#top" }, "BACK TO TOP \u2191")))));
 }
 
